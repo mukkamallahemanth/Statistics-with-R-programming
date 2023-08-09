@@ -1,0 +1,11 @@
+print_factors=functions(n){
+print(paste("the factors of",n,"are:"))
+for(i in 1:n){
+if( (n%% i)==0){
+print(n)
+}
+}
+}
+print_factor(4)
+print_factor(7)
+print_factor(12)
